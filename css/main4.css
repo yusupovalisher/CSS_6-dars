@@ -1,0 +1,74 @@
+body{
+    background-color: darkgrey;
+}
+.wrap{
+    width: 1200px;
+    height: 500px;
+    margin: 100px auto;
+    position: relative;
+}
+p{
+    margin: 0;
+    padding: 0;
+    line-height: 40px;
+    text-align: center;
+}
+.card1{
+    float: left;
+    width: 200px;
+    height: 500px;
+    border: 1px solid black;
+    transform: rotate(30deg);
+    z-index: 1;
+    position: absolute;
+    left: 300px;
+    background-color: white;
+
+}
+.card2{
+    float: left;
+    width: 200px;
+    height: 500px;
+    border: 1px solid black;
+    margin-left: 40px;
+    transform: rotate(10deg);
+    z-index: 2;
+    position: absolute;
+    left: 350px;
+    background-color: white;
+}
+.card3{
+    float: left;
+    width: 200px;
+    height: 500px;
+    border: 1px solid black;
+    margin-left: 530px;
+    z-index: 3;
+    position: absolute;
+    background-color:white;
+
+}
+.card4{
+    float: left;
+    width: 200px;
+    height: 500px;
+    border: 1px solid black;
+    margin-left: 40px;
+    transform: rotateZ(10deg);
+    z-index: 2;
+    position: absolute;
+    right: 350px;
+    background-color: #fff;
+}
+.card5{
+    float: left;
+    width: 200px;
+    height: 500px;
+    border: 1px solid black;
+    margin-left: 40px;
+    transform: rotateZ(30deg);
+    z-index: 1;
+    position: absolute;
+    right: 300px;
+    background-color: #ffffff;
+}

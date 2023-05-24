@@ -1,0 +1,172 @@
+.wrap{
+    width: 1500px;
+    height: 600px;
+    margin: 100px auto;
+}
+.big{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+p{
+    text-align: center;
+    font-size: 25px;
+}
+.btn1{
+    width: 100px;
+    height: 50px;
+    display: block;
+    border-radius: 50px;
+    margin: 20px auto;
+    background-color: greenyellow;
+}
+.click1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: block;
+    margin-left: 48px;
+    background-color: white;
+}
+
+.btn1:focus .click1{
+    margin-left: -5px;
+}
+.btn2{
+    width: 100px;
+    height: 50px;
+    display: block;
+    border-radius: 50px;
+    margin: 20px auto;
+    background-color: darkgrey;
+}
+.click2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: block;
+    margin-right: 50px;
+    background-color: whitesmoke;
+}
+
+.btn2:focus .click2{
+    margin-left: 50px;
+}
+.btn3{
+    width: 100px;
+    height: 50px;
+    display: block;
+    margin: 20px auto;
+    background-color: darkgrey;
+    text-decoration: none;
+    position: relative;
+    color: white;
+    transform: skew(-20deg);
+    font-size: 25px;
+    overflow: hidden;
+}
+.click3{
+    width: 100px;
+    height: 50px;
+    display: inline-block;
+    background-color: darkgrey;
+    position: absolute;
+    top: 0;
+    right: -70px;
+    transform: skew(20deg);
+    overflow: hidden;
+    text-align: center;
+    font-size: 25px;
+    line-height: 50px;
+}
+.click9{
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: darkgrey;
+    transform: skew(20deg);
+    overflow: hidden;
+    text-align: center;
+}
+.btn3:focus .click3{
+    right: 0;
+    color: #77ee22;
+}
+.btn3:focus .click9 {
+    left: -70px;
+    color: red;
+}
+.btn4{
+    width: 100px;
+    height: 50px;
+    border: 2px solid lightgrey;
+    display: block;
+    border-radius: 50px;
+    margin: 20px auto;
+    background-color: white;
+}
+.click4{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid lightgrey;
+    display: block;
+    margin-right: 48px;
+    background-color: white;
+}
+
+.btn4:focus .click4{
+    margin-left: 50px;
+}
+.btn5{
+    width: 100px;
+    height: 50px;
+    display: block;
+    margin: 20px auto;
+    background-color: darkgrey;
+    text-decoration: none;
+    position: relative;
+    color: white;
+    font-size: 25px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+.click5{
+    width: 100px;
+    height: 50px;
+    display: inline-block;
+    background-color: darkgrey;
+    position: absolute;
+    top: 0;
+    right: -70px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 25px;
+    line-height: 50px;
+    color: #7e2;
+}
+.click10{
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: darkgrey;
+    overflow: hidden;
+    text-align: center;
+    color: red;
+}
+.btn5:focus .click5{
+    right: 0;
+}
+.btn5:focus .click10{
+    left: -90px;
+}

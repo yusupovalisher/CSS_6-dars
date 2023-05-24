@@ -1,0 +1,243 @@
+body{
+    background-color: darkslategrey;
+}
+.chap-quloq{
+    width: 90px;
+    height: 170px;
+    border: 1px solid black;
+    border-radius: 50px;
+    transform: rotate(35deg);
+    background: linear-gradient(0deg,black,dimgray);
+    position: absolute;
+    top: 10px;
+    left: 630px;
+    z-index: 1;
+}
+
+.ong-quloq{
+    width: 90px;
+    height: 170px;
+    border: 1px solid black;
+    border-radius: 50px;
+    transform: rotate(-35deg);
+    background: linear-gradient(0deg,black,dimgray);
+    position: absolute;
+    top: 10px;
+    left: 1000px;
+    z-index: 1;
+}
+
+.bosh{
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+    border-radius: 100%;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    position: relative;
+    z-index: 2;
+}
+
+.ong-koz{
+    width: 100px;
+    height: 120px;
+    background-color: white;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border: 1px solid grey;
+    position: absolute;
+    top: 125px;
+    left: 700px;
+    z-index: 3;
+    transform: rotate(-3deg);
+}
+
+.chap-koz{
+    width: 100px;
+    height: 120px;
+    background-color: white;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border: 1px solid grey;
+    position: absolute;
+    top: 125px;
+    left: 925px;
+    z-index: 3;
+    transform: rotate(3deg);
+}
+
+.ogiz1{
+    width: 250px;
+    height: 250px;
+    background-color: black;
+    position: absolute;
+    top: 220px;
+    left: 640px;
+    border-radius: 100%;
+    z-index: 5;
+}
+
+.ogiz2{
+    width: 250px;
+    height: 250px;
+    background-color: black;
+    position: absolute;
+    top: 220px;
+    left: 850px;
+    border-radius: 100%;
+    z-index: 5;
+}
+
+.til{
+    width: 70px;
+    height: 120px;
+    background-color: red;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    position: relative;
+    left: 830px;
+    top: 2px;
+    z-index: 4;
+}
+
+.katta-qorin{
+    width: 380px;
+    height: 380px;
+    background-color: white;
+    position: absolute;
+    top: 400px;
+    left: 680px;
+    border-radius: 100%;
+    box-shadow: 0 0 10px black;
+    z-index: 2;
+}
+
+.kichik-qorin{
+    width: 200px;
+    height: 200px;
+    background-color: whitesmoke;
+    border-radius: 100%;
+    position: relative;
+    left: 765px;
+    box-shadow: 0 0 5px inset lightgray;
+    z-index: 3;
+}
+
+.ong-oyoq{
+    width: 250px;
+    height: 150px;
+    background-color: white;
+    border-radius: 100%;
+    margin-left: 650px;
+    margin-top: -30px;
+    transform: rotate(-30deg);
+    z-index: 1;
+}
+
+.chap-oyoq{
+    width: 250px;
+    height: 150px;
+    background-color: white;
+    border-radius: 100%;
+    margin-left: 860px;
+    margin-top: -150px;
+    transform: rotate(30deg);
+    z-index: 1;
+}
+
+.dum{
+    width: 300px;
+    height: 150px;
+    border-radius: 100%;
+    border: 50px solid white;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    margin-left: 800px;
+    margin-top: -530px;
+    transform: rotate(120deg);
+    animation-name: tail;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-iteration-count: 0;
+}
+
+.kichik-koz1{
+    width: 70px;
+    height: 70px;
+    background-color: black;
+    border-radius: 100%;
+    position: absolute;
+    left: 720px;
+    top: 160px;
+    z-index: 4;
+}
+
+.kichik-koz2{
+    width: 70px;
+    height: 70px;
+    background-color: black;
+    border-radius: 100%;
+    position: absolute;
+    left: 940px;
+    top: 160px;
+    z-index: 4;
+}
+
+.kichik-koz3{
+    width: 22px;
+    height: 22px;
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+    left: 727px;
+    top: 168px;
+    z-index: 5;
+}
+
+.kichik-koz4{
+    width: 22px;
+    height: 22px;
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+    left: 950px;
+    top: 165px;
+    z-index: 5;
+}
+
+@keyframes tail {
+    0%{
+        transform: rotateY(0deg);
+    }
+    25%{
+        transform: rotateZ(180deg);
+    }
+    50%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(0);
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

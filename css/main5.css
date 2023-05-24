@@ -1,0 +1,95 @@
+body{
+    background-color: black;
+}
+.wrap{
+    width: 1200px;
+}
+.menu{
+    position: relative;
+    margin: 250px;
+}
+.menu-item{
+    width: 150px;
+    border-radius: 10px;
+    height: 500px;
+    background-color: whitesmoke;
+    text-align: center;
+    margin-left: 0;
+    position: absolute;
+    float: left;
+    top: 50px;
+    left: 350px;
+    transform:rotate(-20deg) ;
+}
+.menu-item2{
+    width: 150px;
+    border-radius: 10px;
+    height: 500px;
+    background-color: whitesmoke;
+    text-align: center;
+    margin-left:  0;
+    position: absolute;
+    top: 20px;
+    left: 420px;
+    transform: rotate(-15deg);
+}
+.menu-item3{
+    width: 150px;
+    border-radius: 10px;
+    height: 500px;
+    background-color: whitesmoke;
+    text-align: center;
+    margin-left:  0;
+    position: absolute;
+    top: 20px;
+    left: 470px;
+}
+.menu-item4{
+    width: 150px;
+    border-radius: 10px;
+    height: 500px;
+    background-color: whitesmoke;
+    text-align: center;
+    margin-left:  0;
+    position: absolute;
+    top: 20px;
+    left: 520px;
+    transform: rotate(15deg);
+}
+.menu-item5{
+    width: 150px;
+    border-radius: 10px;
+    height: 500px;
+    background-color: whitesmoke;
+    text-align: center;
+    margin-left:  0;
+    position: absolute;
+    top: 50px;
+    left: 570px;
+    transform: rotate(20deg);
+}
+img{
+    width: 120px;
+    height: 100px;
+}
+
+.menu-item:hover{
+    transform: scale(1.4);
+    z-index: 10;
+}
+.menu-item2:hover{
+    transform: scale(1.4);
+    z-index: 10;
+}
+.menu-item3:hover{
+    transform: scale(1.4);
+    z-index: 10;
+}
+.menu-item4:hover{
+     transform: scale(1.4);
+    z-index: 10;
+ }
+.menu-item5:hover{
+    transform: scale(1.4);
+    z-index: 10;
+}
